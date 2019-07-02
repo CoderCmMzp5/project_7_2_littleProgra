@@ -1,0 +1,152 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "同心源",
+				"navigationBarBackgroundColor": "#F2CB2C" ,
+				"usingComponents" : {
+				   "van-button" : "/wxcomponents/vant/vant-weapp/button/index"
+				}
+
+			}
+		},
+		{
+			"path": "pages/clockcard/index",
+			"style": {
+				"navigationBarTitleText": "打卡",
+				"navigationBarBackgroundColor": "#F2CB2C" 
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#F2CB2C" 
+			}
+		},
+		{
+			"path": "pages/pictureBook/index",
+			"style": {
+				"navigationBarTitleText": "绘本试读"
+			}
+		},
+		{
+			"path": "pages/readingPromotion/index",
+			"style": {
+				"navigationBarTitleText": "推荐阅读"
+			}
+		},
+		{
+			"path": "pages/readingPromotion/promotionDetail",
+			"style": {
+				"navigationBarTitleText": "推荐详情"
+			}
+		},
+		{
+			"path": "pages/readingPromotion/nicePromotion",
+			"style": {
+				"navigationBarTitleText": "好书推荐"
+			}
+		},
+		{
+			"path": "pages/my/memberMessage",
+			"style": {
+				"navigationBarTitleText": "会员信息"
+			}
+		},
+		{
+			"path": "pages/my/memberCard",
+			"style": {
+				"navigationBarTitleText": "会员海报"
+			}
+		},
+		{
+			"path": "pages/my/bookself",
+			"style": {
+				"navigationBarTitleText": "打卡书单"
+			}
+		},
+		{
+			"path": "pages/my/memberlevel",
+			"style": {
+				"navigationBarTitleText": "会员等级"
+			}
+		},
+		{
+			"path": "pages/my/levelDetail",
+			"style": {
+				"navigationBarTitleText": "等级详情"
+			}
+		},
+		{
+			"path": "pages/my/aboutMe",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/my/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/clockcard/clockDetail",
+			"style": {
+				"navigationBarTitleText": "打卡"
+			}
+		},
+		{
+			"path": "pages/index/readbook",
+			"style": {
+				"navigationBarTitleText": "阅读"
+			}
+		},
+		{
+			"path": "pages/index/listenbook",
+			"style": {
+				"navigationBarTitleText": "听书"
+			}
+		},
+		{
+			"path": "pages/index/answerquestion",
+			"style": {
+				"navigationBarTitleText": "答题"
+			}
+		},
+		{
+			"path": "pages/common/index"
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	 "tabBar": {
+        "color": "#222",
+        "selectedColor": "#222",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "/static/images/home.png",
+            "selectedIconPath": "/static/images/home.png",
+            "text": "首页"
+        },
+		{
+            "pagePath": "pages/clockcard/index",
+            "iconPath": "/static/images/sedcard.png",
+            "selectedIconPath": "/static/images/sedcard.png",
+            "text": "打卡"
+        },
+		{
+		    "pagePath": "pages/my/index",
+		    "iconPath": "/static/images/my.png",
+		    "selectedIconPath": "/static/images/my.png",
+		    "text": "我的"
+		}
+		]
+    }
+}
