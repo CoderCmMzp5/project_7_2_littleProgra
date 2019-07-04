@@ -1,7 +1,4 @@
 {
   "navigationBarTitleText": "打卡",
-  "navigationBarBackgroundColor": "#F2CB2C",
-  "usingComponents": {
-    "index": "/pages/common/index"
-  }
+  "navigationBarBackgroundColor": "#F2CB2C"
 }

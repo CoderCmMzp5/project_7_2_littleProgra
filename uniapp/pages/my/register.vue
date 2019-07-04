@@ -3,8 +3,6 @@
 		<view class="student-msg">
 			<text class="title">学生信息</text>
 			<view class="msg-detail">
-				
-				
 				<view class="msg">
 					<text class="right">姓名</text>
 					<input type="text" value="" placeholder="请输入您的姓名"   class="input"/>
@@ -96,7 +94,6 @@
 		width: 100%;
 		background-color: #f5f5f5;
 		padding: 32upx;
-		padding-bottom: 107upx;
 		box-sizing: border-box;
 		.student-msg{
 			.title{

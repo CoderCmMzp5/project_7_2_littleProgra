@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wrapper.data-v-78bc83fd {
+.wrapper.data-v-5f466c2f {
   min-height: 100%;
   width: 100%;
   padding: 32rpx;
@@ -32,17 +32,16 @@
           box-sizing: border-box;
   background-color: #f5f5f5;
 }
-.wrapper .question.data-v-78bc83fd {
+.wrapper .question.data-v-5f466c2f {
     margin-top: 32rpx;
-    -webkit-border-radius: 16rpx;
-            border-radius: 16rpx;
+    border-radius: 16rpx;
     background-color: #fff;
     padding: 32rpx;
     padding-bottom: 64rpx;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-.wrapper .question .title.data-v-78bc83fd {
+.wrapper .question .title.data-v-5f466c2f {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -52,31 +51,31 @@
           -ms-flex-align: end;
               align-items: flex-end;
 }
-.wrapper .question .title image.data-v-78bc83fd {
+.wrapper .question .title image.data-v-5f466c2f {
         height: 45rpx;
         width: 45rpx;
         margin-right: 16rpx;
 }
-.wrapper .question .title .current.data-v-78bc83fd {
+.wrapper .question .title .current.data-v-5f466c2f {
         position: relative;
         top: 10rpx;
 }
-.wrapper .question .title .current.data-v-78bc83fd, .wrapper .question .title .total.data-v-78bc83fd {
+.wrapper .question .title .current.data-v-5f466c2f, .wrapper .question .title .total.data-v-5f466c2f {
         color: #999;
         font-size: 56rpx;
         font-family: PingFangSC-Medium;
 }
-.wrapper .question .title .total.data-v-78bc83fd {
+.wrapper .question .title .total.data-v-5f466c2f {
         font-size: 24rpx;
 }
-.wrapper .question .desc.data-v-78bc83fd {
+.wrapper .question .desc.data-v-5f466c2f {
       color: #222;
       font-size: 40rpx;
       font-family: PingFangSC-Medium;
       font-weight: 500;
       margin-top: 16rpx;
 }
-.wrapper .question .select.data-v-78bc83fd {
+.wrapper .question .select.data-v-5f466c2f {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -88,7 +87,7 @@
               flex-direction: column;
       margin-top: 9rpx;
 }
-.wrapper .question .select .select-item.data-v-78bc83fd {
+.wrapper .question .select .select-item.data-v-5f466c2f {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -103,37 +102,34 @@
                 justify-content: space-between;
         height: 104rpx;
 }
-.wrapper .question .select .select-item .text.data-v-78bc83fd {
+.wrapper .question .select .select-item .text.data-v-5f466c2f {
           font-size: 28rpx;
           color: #222;
           font-weight: 500;
           font-family: PingFangSC-Medium;
 }
-.wrapper .question .select .select-item .radius.data-v-78bc83fd {
+.wrapper .question .select .select-item .radius.data-v-5f466c2f {
           height: 36rpx;
           width: 36rpx;
-          -webkit-border-radius: 50%;
-                  border-radius: 50%;
+          border-radius: 50%;
           border: 1rpx solid #ccc;
 }
-.wrapper .question .select .select-item .error.data-v-78bc83fd {
+.wrapper .question .select .select-item .error.data-v-5f466c2f {
           color: #F5222D;
 }
-.wrapper .question .select .select-item .right.data-v-78bc83fd {
+.wrapper .question .select .select-item .right.data-v-5f466c2f {
           color: #F2CB2C;
 }
-.wrapper .question .select .select-item .img-icon.data-v-78bc83fd {
+.wrapper .question .select .select-item .img-icon.data-v-5f466c2f {
           height: 36rpx;
           width: 36rpx;
 }
-.wrapper .question .btn.data-v-78bc83fd {
+.wrapper .question .btn.data-v-5f466c2f {
       margin-top: 32rpx;
       height: 94rpx;
       width: 100%;
       line-height: 94rpx;
-      -webkit-border-radius: 16rpx;
-              border-radius: 16rpx;
-      background: -webkit-linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
+      border-radius: 16rpx;
       background: -o-linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
       background: linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
       -webkit-box-shadow: 0px 10px 30px 0px rgba(247, 231, 115, 0.5);
@@ -143,7 +139,7 @@
       font-family: PingFangSC-Medium;
       font-weight: 500;
 }
-.wrapper .question button.data-v-78bc83fd::after {
+.wrapper .question ._button.data-v-5f466c2f::after {
       border: none;
 }
 

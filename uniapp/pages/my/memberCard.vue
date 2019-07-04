@@ -66,14 +66,14 @@
 			.name{
 				margin-top: 32upx;
 				color: #222;
-				font-size: 40upx;
+				font-size: 42upx;
 				font-weight: 600;
 				
 			}
 			.desc{
 				margin-top: 16upx;
 				color: #B035E4;
-				font-size: 28upx;
+				font-size: 30upx;
 				font-weight: 400;
 			}
 			.level{
@@ -83,10 +83,12 @@
 			}
 		}
 		.share{
-			margin-top: 80upx;
+			margin-top: 60upx;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			margin-left: 20upx;
+			margin-right: 20upx;
 			.common{
 				display: flex;
 				flex-direction: column;

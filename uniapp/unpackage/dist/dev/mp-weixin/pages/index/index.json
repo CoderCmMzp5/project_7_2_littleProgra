@@ -2,7 +2,6 @@
   "navigationBarTitleText": "同心源",
   "navigationBarBackgroundColor": "#F2CB2C",
   "usingComponents": {
-    "van-button": "/wxcomponents/vant/vant-weapp/button/index",
-    "index": "/pages/common/index"
+    "van-button": "/wxcomponents/vant/vant-weapp/button/index"
   }
 }

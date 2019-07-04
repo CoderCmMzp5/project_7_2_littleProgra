@@ -61,9 +61,10 @@
 				.my-level{
 					display: flex;
 					justify-content: space-between;
+					padding-top: 15upx;
 					.text{
 						color: #222;
-						font-size: 28upx;
+						font-size: 30upx;
 					}
 					.share{
 						display: flex;
@@ -74,7 +75,7 @@
 						}
 						.text{
 							color: #999;
-							font-size: 24upx;
+							font-size: 26upx;
 							margin-left: 13upx;
 						}
 					}
@@ -88,7 +89,7 @@
 				.title{
 					text-align: center;
 					margin-top: 60upx;
-					font-size: 28upx;
+					font-size: 30upx;
 					color: #222;
 				}
 				.progress{
@@ -105,7 +106,7 @@
 					}
 					.name{
 						background: linear-gradient(270deg,rgba(250,231,87,1) 0%,rgba(242,203,44,1) 100%);
-						color: #FF4B00
+						color: #FF4B00;
 					}
 					.desc{
 						background: linear-gradient(90deg,rgba(198,198,198,1) 0%,rgba(221,221,221,1) 100%);;
@@ -119,8 +120,8 @@
 				.distance{
 					width: 100%;
 					text-align: center;
-					margin-top: 28upx;
-					font-size: 24upx;
+					margin-top: 30upx;
+					font-size: 26upx;
 					color: #999;
 				}
 			}
@@ -137,13 +138,13 @@
 			align-items: flex-start;
 			border-radius: 16upx;
 			.title{
-				font-size: 28upx;
+				font-size: 30upx;
 				color: #222;
 				font-weight: 500;
 				margin-top: 32upx;
 			}
 			.common{
-				font-size: 24upx;
+				font-size: 26upx;
 				color: #222;
 				margin-top: 32upx;
 			}
