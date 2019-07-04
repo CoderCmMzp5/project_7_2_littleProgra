@@ -1,6 +1,6 @@
 <template>
 	<view class="wrapper">
-		<image src="../../static/images/readbg.png" mode="" class="img-icon"></image>
+		<image src="https://r.ffimg.cn/hlswx/2019-07-04/5d1df8a2dbcd7849782267.png" mode="" class="img-icon"></image>
 		<view class="desc">
 			<view class="common">
 				<image src="../../static/images/left.png" mode=""></image>

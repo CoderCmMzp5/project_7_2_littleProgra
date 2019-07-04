@@ -1,7 +1,5 @@
 {
+  "usingComponents": {},
   "navigationBarTitleText": "个人中心",
-  "navigationBarBackgroundColor": "#F2CB2C",
-  "usingComponents": {
-    "uni-popup": "/pages/my/uni-popup"
-  }
+  "navigationBarBackgroundColor": "#F2CB2C"
 }

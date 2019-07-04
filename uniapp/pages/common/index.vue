@@ -2,7 +2,7 @@
 	<div class='content'>
 		<image class="bg" src="../../static/images/home_bg.png" mode="widthFix"></image>
 		<view class="icon-1">
-			<image class="icon-img" src="../../static/images/home_icon1.png" mode="widthFix"></image>
+			<image class="icon-img" src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfc033eac8824854881.png" mode="widthFix"></image>
 			<text class="count">2/5</text>
 			
 		</view>

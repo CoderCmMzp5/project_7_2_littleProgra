@@ -60,7 +60,7 @@
 		<view class="example">
 			<uni-popup :show="type === 'middle-img'" position="middle" mode="insert" >
 				<view class="uni-center center-box"  @click="togglePopup('middle-img2')">
-					<image class="image" src="../../static/images/pop_1.png" />
+					<image class="image" src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfbe1c2a3c139804699.png" />
 					<view class="centerBox">
 						<view>恭喜过关</view>
 						<view>加油你是最棒的</view>
@@ -193,7 +193,7 @@
 			
 			<uni-popup :show="type === 'middle-img12'" position="middle" mode="insert" >
 				<view class="uni-center center-box">
-					<image class="image innerImgs fullBg" style="margin-top: 0;" src="../../static/images/bg_g.png"/>
+					<image class="image innerImgs fullBg" style="margin-top: 0;" src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfa11b87fb059237444.png"/>
 					<view class="centerBox centerBoxInner" style="top:20upx;">
 						<view class="fullBg_title">
 							<image class="image innerImgs" src="../../static/images/bg_y.png" />

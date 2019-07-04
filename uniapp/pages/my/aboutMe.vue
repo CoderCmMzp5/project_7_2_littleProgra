@@ -1,7 +1,7 @@
 <template>
 	<div class='wrapper'>
 		<div class='content'>
-			<image src="../../static/images/mybg.png" mode="" class="img-iocn"></image>
+			<image src="https://r.ffimg.cn/hlswx/2019-07-04/5d1df931acdf1231028041.png" mode="" class="img-iocn"></image>
 			<image src="../../static/images/my-icon.png" mode="" class="company-icon"></image>
 			<view class="text">
 				<view class="text-1">企业简介是指通过文字和图片资料向社会公众介绍企业基本情况和经营战略的文案。主要介绍企业名称、企业的法律性质、开办地址、设立时间、所属行业、注册资金、建筑面积、技术装备条件；生产经营范围、主要产品结构；企业发展战略、经营理念等情况。</view>

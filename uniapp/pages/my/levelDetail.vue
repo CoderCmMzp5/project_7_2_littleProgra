@@ -1,7 +1,7 @@
 <template>
 	<div class='wrapper'>
 		<view class="content">
-			<image src="../../static/images/levelbg.png" class="bg"></image>
+			<image src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfcf2c1391210088269.png" class="bg"></image>
 			<view class="content-detail">
 				<view class="my-level">
 					<text class="text">我的等级</text>

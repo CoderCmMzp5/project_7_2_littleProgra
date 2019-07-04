@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wrapper.data-v-877793a6 {
+.wrapper.data-v-e225c192 {
   min-height: 100%;
   width: 100%;
   background-color: #f5f5f5;
@@ -32,18 +32,18 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.wrapper .content.data-v-877793a6 {
+.wrapper .content.data-v-e225c192 {
     height: 721rpx;
     width: 100%;
     position: relative;
 }
-.wrapper .content .bg.data-v-877793a6 {
+.wrapper .content .bg.data-v-e225c192 {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 10;
 }
-.wrapper .content .content-detail.data-v-877793a6 {
+.wrapper .content .content-detail.data-v-e225c192 {
       height: 100%;
       width: 100%;
       padding: 32rpx 64rpx;
@@ -52,7 +52,7 @@
       position: absolute;
       z-index: 100;
 }
-.wrapper .content .content-detail .my-level.data-v-877793a6 {
+.wrapper .content .content-detail .my-level.data-v-e225c192 {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -63,11 +63,11 @@
                 justify-content: space-between;
         padding-top: 15rpx;
 }
-.wrapper .content .content-detail .my-level .text.data-v-877793a6 {
+.wrapper .content .content-detail .my-level .text.data-v-e225c192 {
           color: #222;
           font-size: 30rpx;
 }
-.wrapper .content .content-detail .my-level .share.data-v-877793a6 {
+.wrapper .content .content-detail .my-level .share.data-v-e225c192 {
           display: -webkit-box;
           display: -webkit-flex;
           display: -ms-flexbox;
@@ -77,28 +77,28 @@
               -ms-flex-align: center;
                   align-items: center;
 }
-.wrapper .content .content-detail .my-level .share .share-icon.data-v-877793a6 {
+.wrapper .content .content-detail .my-level .share .share-icon.data-v-e225c192 {
             height: 36rpx;
             width: 36rpx;
 }
-.wrapper .content .content-detail .my-level .share .text.data-v-877793a6 {
+.wrapper .content .content-detail .my-level .share .text.data-v-e225c192 {
             color: #999;
             font-size: 26rpx;
             margin-left: 13rpx;
 }
-.wrapper .content .content-detail .img-icon.data-v-877793a6 {
+.wrapper .content .content-detail .img-icon.data-v-e225c192 {
         height: 200rpx;
         width: 200rpx;
         margin-left: 200rpx;
         margin-top: 92rpx;
 }
-.wrapper .content .content-detail .title.data-v-877793a6 {
+.wrapper .content .content-detail .title.data-v-e225c192 {
         text-align: center;
         margin-top: 60rpx;
         font-size: 30rpx;
         color: #222;
 }
-.wrapper .content .content-detail .progress.data-v-877793a6 {
+.wrapper .content .content-detail .progress.data-v-e225c192 {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -109,7 +109,7 @@
                 justify-content: space-between;
         margin-top: 68rpx;
 }
-.wrapper .content .content-detail .progress .name.data-v-877793a6, .wrapper .content .content-detail .progress .desc.data-v-877793a6 {
+.wrapper .content .content-detail .progress .name.data-v-e225c192, .wrapper .content .content-detail .progress .desc.data-v-e225c192 {
           -webkit-box-flex: 0;
           -webkit-flex: 0 0 68rpx;
               -ms-flex: 0 0 68rpx;
@@ -130,35 +130,35 @@
           -webkit-border-radius: 16rpx;
                   border-radius: 16rpx;
 }
-.wrapper .content .content-detail .progress .name.data-v-877793a6 {
+.wrapper .content .content-detail .progress .name.data-v-e225c192 {
           background: -webkit-gradient(linear, right top, left top, from(#fae757), to(#f2cb2c));
           background: -webkit-linear-gradient(right, #fae757 0%, #f2cb2c 100%);
           background: -o-linear-gradient(right, #fae757 0%, #f2cb2c 100%);
           background: linear-gradient(270deg, #fae757 0%, #f2cb2c 100%);
           color: #FF4B00;
 }
-.wrapper .content .content-detail .progress .desc.data-v-877793a6 {
+.wrapper .content .content-detail .progress .desc.data-v-e225c192 {
           background: -webkit-gradient(linear, left top, right top, from(#c6c6c6), to(#dddddd));
           background: -webkit-linear-gradient(left, #c6c6c6 0%, #dddddd 100%);
           background: -o-linear-gradient(left, #c6c6c6 0%, #dddddd 100%);
           background: linear-gradient(90deg, #c6c6c6 0%, #dddddd 100%);
           color: #fff;
 }
-.wrapper .content .content-detail .progress .progress-width.data-v-877793a6 {
+.wrapper .content .content-detail .progress .progress-width.data-v-e225c192 {
           -webkit-box-flex: 1;
           -webkit-flex: 1;
               -ms-flex: 1;
                   flex: 1;
           margin: 0 11rpx;
 }
-.wrapper .content .content-detail .distance.data-v-877793a6 {
+.wrapper .content .content-detail .distance.data-v-e225c192 {
         width: 100%;
         text-align: center;
         margin-top: 30rpx;
         font-size: 26rpx;
         color: #999;
 }
-.wrapper .book-interest.data-v-877793a6 {
+.wrapper .book-interest.data-v-e225c192 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -184,13 +184,13 @@
     -webkit-border-radius: 16rpx;
             border-radius: 16rpx;
 }
-.wrapper .book-interest .title.data-v-877793a6 {
+.wrapper .book-interest .title.data-v-e225c192 {
       font-size: 30rpx;
       color: #222;
       font-weight: 500;
       margin-top: 32rpx;
 }
-.wrapper .book-interest .common.data-v-877793a6 {
+.wrapper .book-interest .common.data-v-e225c192 {
       font-size: 26rpx;
       color: #222;
       margin-top: 32rpx;
