@@ -27,7 +27,6 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {},
   "tabBar": {
     "color": "#222",
     "selectedColor": "#222",
@@ -52,5 +51,6 @@
       }
     ]
   },
+  "usingComponents": {},
   "sitemapLocation": "sitemap.json"
 }

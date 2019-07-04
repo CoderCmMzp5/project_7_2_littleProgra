@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
   "navigationBarTitleText": "同心源",
-  "navigationBarBackgroundColor": "#F2CB2C"
+  "navigationBarBackgroundColor": "#F2CB2C",
+  "usingComponents": {
+    "index": "/pages/common/index"
+  }
 }

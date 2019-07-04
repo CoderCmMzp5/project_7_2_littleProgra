@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "打卡"
+  "navigationBarTitleText": "打卡",
+  "usingComponents": {
+    "calendar": "/components/uni-calendar/uni-calendar"
+  }
 }

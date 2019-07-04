@@ -199,7 +199,7 @@
 							<image class="image innerImgs" src="../../static/images/bg_y.png" />
 							<view>解锁书籍</view>
 						</view>
-						 <image src="../../static/images/readbg.png" class="fullBg_bImg_1"></image>
+						 <image src="https://r.ffimg.cn/hlswx/2019-07-04/5d1e00aac0888283293860.png" class="fullBg_bImg_1"></image>
 						<view class="fullBg_bTitle_1">闲适的时光</view>
 						<view class="fullBg_bTitle_2">人民出版社</view>
 					</view>
@@ -335,7 +335,7 @@
 				uni.showTabBar()
 			},
 			getImgUrl(icon){
-			   return require("../../static/images/"+icon+".png");
+			  return require("../../static/images/"+icon+".png");
 			}
 		}
 	}
