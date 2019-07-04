@@ -1,4 +1,0 @@
-<import src="/pages/common/index.vue.wxml" />
-<import src="/components/uni-calendar/uni-calendar.vue.wxml" />
-<import src="/components/uni-calendar/uni-calendar-item.vue.wxml" />
-

@@ -23,11 +23,11 @@
 		</view>
 		<view class="reason-img">
 			<view class="img-content">
-				<image src="../../static/images/book-img.png" mode="" class="imgdetail"></image>
+				<image src="../../static/images/detail-icon3.png" mode="" class="imgdetail"></image>
 				<image src="../../static/images/close_icon.png" mode="" class="close"></image>
 			</view>
 			<view class="img-content">
-				<image src="../../static/images/book-img.png" mode="" class="imgdetail"></image>
+				<image src="../../static/images/detail-icon4.png" mode="" class="imgdetail"></image>
 				<image src="../../static/images/close_icon.png" mode="" class="close"></image>
 			</view>
 			<view class="img-content">

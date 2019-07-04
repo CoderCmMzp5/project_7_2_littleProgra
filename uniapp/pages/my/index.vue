@@ -552,7 +552,7 @@
 		color: #fff;
 	}
 	.wrapper {
-		height: 100%;
+		min-height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		.header {

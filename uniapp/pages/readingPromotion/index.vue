@@ -8,16 +8,37 @@
 		</view>
 		
 		<view class="content" @click="_goToNicePromotion">
-			<image src="../../static/images/book-img.png" mode="" class="book-img"></image>
-			<text class="text">风筝下的古树</text>
-			<text class="name">古山哈哈哈哈哈哈</text>
+			<image src="../../static/images/book-img-icon1.png" mode="" class="book-img"></image>
+			<text class="text">吹小号的天鹅</text>
+			<text class="name">E·B·怀特</text>
 			<image class="icon" src="../../static/images/noread.png" mode=""></image>
 		</view>
 		
 		<view class="content">
-			<image src="../../static/images/book-img.png" mode="" class="book-img"></image>
+			<image src="../../static/images/book-img-icon2.png" mode="" class="book-img"></image>
+			<text class="text">不老泉 : 双桅船经典…</text>
+			<text class="name">纳塔莉·巴比特</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon3.png" mode="" class="book-img"></image>
+			<text class="text">苏斯博士最经典童书</text>
+			<text class="name">苏斯博士</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon1.png" mode="" class="book-img"></image>
 			<text class="text">风筝下的古树</text>
-			<text class="name">古山哈哈哈哈哈哈很多很多和</text>
+			<text class="name">古山</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon2.png" mode="" class="book-img"></image>
+			<text class="text">吹小号的天鹅</text>
+			<text class="name">E·B·怀特</text>
 			<image class="icon" src="../../static/images/clock.png" mode=""></image>
 		</view>
 	</div>
@@ -48,7 +69,7 @@
 
 <style lang="scss" scoped>
 	.wrapper{
-		height: 100%;
+		min-height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		padding: 32upx;

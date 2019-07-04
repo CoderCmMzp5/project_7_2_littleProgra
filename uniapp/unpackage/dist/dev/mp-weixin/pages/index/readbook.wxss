@@ -24,17 +24,17 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wrapper.data-v-1d8a34ca {
+.wrapper.data-v-624cda50 {
   min-height: 100%;
   width: 100%;
   background-color: #f5f5f5;
   position: relative;
 }
-.wrapper .img-icon.data-v-1d8a34ca {
+.wrapper .img-icon.data-v-624cda50 {
     height: 1304rpx;
     width: 100%;
 }
-.wrapper .desc.data-v-1d8a34ca {
+.wrapper .desc.data-v-624cda50 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -49,7 +49,7 @@
             align-items: center;
     padding: 32rpx;
 }
-.wrapper .desc .common.data-v-1d8a34ca {
+.wrapper .desc .common.data-v-624cda50 {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -59,22 +59,22 @@
           -ms-flex-align: center;
               align-items: center;
 }
-.wrapper .desc .common image.data-v-1d8a34ca {
+.wrapper .desc .common image.data-v-624cda50 {
         height: 36rpx;
         width: 36rpx;
 }
-.wrapper .desc .common .text.data-v-1d8a34ca {
+.wrapper .desc .common .text.data-v-624cda50 {
         color: #222;
         font-size: 24rpx;
         font-family: PingFangSC-Regular;
         font-weight: 400;
 }
-.wrapper .desc .common:nth-of-type(1) image.data-v-1d8a34ca {
+.wrapper .desc .common:nth-of-type(1) image.data-v-624cda50 {
       -webkit-transform: rotate(-180deg);
           -ms-transform: rotate(-180deg);
               transform: rotate(-180deg);
 }
-.wrapper .listen.data-v-1d8a34ca {
+.wrapper .listen.data-v-624cda50 {
     height: 98rpx;
     width: 98rpx;
     display: -webkit-box;
@@ -93,9 +93,10 @@
     background-color: #fff;
     right: 32rpx;
     bottom: 140rpx;
-    border-radius: 50%;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
 }
-.wrapper .listen image.data-v-1d8a34ca {
+.wrapper .listen image.data-v-624cda50 {
       width: 41rpx;
       height: 48rpx;
 }

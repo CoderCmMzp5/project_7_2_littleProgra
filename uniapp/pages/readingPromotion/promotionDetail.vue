@@ -15,7 +15,7 @@
 					<text class="border"></text>
 				</view>
 				<view class="name">
-					<image src="../../static/images/author-icon.png" class="book-author-img" mode=""></image>
+					<image src="../../static/images/detail-icon1.png" class="book-author-img" mode=""></image>
 					<text class="book-name">清明雨上</text>
 				</view>
 				
@@ -27,9 +27,9 @@
 					清醒隽永是不必说了。吸引我看下去的，不仅是因为作者讲了一个关于“不死”的故事，还因为作者在开头几章抛出了许多待解的细节，却一点儿也不急着告诉你答案，你就知道里面会有些好东西。不是所有人都能得到的好东西，因为它要求你沉得住气。
 				</text>
 				<view class="suppprt-img">
-					<image src="../../static/images/book-img.png" mode=""></image>
-					<image src="../../static/images/book-img.png" mode=""></image>
-					<image src="../../static/images/book-img.png" mode=""></image>
+					<image src="../../static/images/detail-icon2.png" mode=""></image>
+					<image src="../../static/images/detail-icon3.png" mode=""></image>
+					<image src="../../static/images/detail-icon4.png" mode=""></image>
 				</view>
 				<view class="dot">
 					<view class="dot-content">

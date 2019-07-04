@@ -24,28 +24,28 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wrapper.data-v-1e96a8e8 {
+.wrapper.data-v-6c136122 {
   min-height: 100%;
   width: 100%;
   background-color: #f5f5f5;
   padding: 32rpx;
-  padding-bottom: 107rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.wrapper .student-msg .title.data-v-1e96a8e8 {
+.wrapper .student-msg .title.data-v-6c136122 {
     margin-left: 32rpx;
     font-size: 24rpx;
     font-weight: 500;
     color: #666;
 }
-.wrapper .student-msg .msg-detail.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail.data-v-6c136122 {
     background-color: #fff;
-    border-radius: 16rpx;
+    -webkit-border-radius: 16rpx;
+            border-radius: 16rpx;
     padding: 0 32rpx;
     margin-top: 16rpx;
 }
-.wrapper .student-msg .msg-detail .msg.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg.data-v-6c136122 {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -57,7 +57,7 @@
       height: 144rpx;
       border-bottom: 1rpx solid #eee;
 }
-.wrapper .student-msg .msg-detail .msg .right.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg .right.data-v-6c136122 {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 200rpx;
             -ms-flex: 0 0 200rpx;
@@ -67,13 +67,13 @@
         font-size: 28rpx;
         font-weight: 500;
 }
-.wrapper .student-msg .msg-detail .msg .right1.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg .right1.data-v-6c136122 {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 80rpx;
             -ms-flex: 0 0 80rpx;
                 flex: 0 0 80rpx;
 }
-.wrapper .student-msg .msg-detail .msg .img.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg .img.data-v-6c136122 {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
             -ms-flex: 1;
@@ -87,11 +87,11 @@
             -ms-flex-pack: end;
                 justify-content: flex-end;
 }
-.wrapper .student-msg .msg-detail .msg .img image.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg .img image.data-v-6c136122 {
           height: 80rpx;
           width: 80rpx;
 }
-.wrapper .student-msg .msg-detail .msg .input.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg .input.data-v-6c136122 {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
             -ms-flex: 1;
@@ -100,7 +100,7 @@
         font-size: 28rpx;
         color: #222;
 }
-.wrapper .student-msg .msg-detail .msg .arrow.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg .arrow.data-v-6c136122 {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 36rpx;
             -ms-flex: 0 0 36rpx;
@@ -108,7 +108,7 @@
         height: 36rpx;
         margin-left: 16rpx;
 }
-.wrapper .student-msg .msg-detail .msg-1.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-1.data-v-6c136122 {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -120,7 +120,7 @@
       height: 144rpx;
       border-bottom: 1rpx solid #eee;
 }
-.wrapper .student-msg .msg-detail .msg-1 .right.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-1 .right.data-v-6c136122 {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 120rpx;
             -ms-flex: 0 0 120rpx;
@@ -130,11 +130,12 @@
         font-size: 28rpx;
         font-weight: 500;
 }
-.wrapper .student-msg .msg-detail .msg-1 .boy.data-v-1e96a8e8, .wrapper .student-msg .msg-detail .msg-1 .girl.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-1 .boy.data-v-6c136122, .wrapper .student-msg .msg-detail .msg-1 .girl.data-v-6c136122 {
         height: 98rpx;
         width: 231rpx;
         border: 1rpx solid #AF9F19;
-        border-radius: 16rpx;
+        -webkit-border-radius: 16rpx;
+                border-radius: 16rpx;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -149,28 +150,28 @@
         position: relative;
         margin-left: 80rpx;
 }
-.wrapper .student-msg .msg-detail .msg-1 .boy .icon.data-v-1e96a8e8, .wrapper .student-msg .msg-detail .msg-1 .girl .icon.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-1 .boy .icon.data-v-6c136122, .wrapper .student-msg .msg-detail .msg-1 .girl .icon.data-v-6c136122 {
           height: 64rpx;
           width: 64rpx;
 }
-.wrapper .student-msg .msg-detail .msg-1 .boy .sex.data-v-1e96a8e8, .wrapper .student-msg .msg-detail .msg-1 .girl .sex.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-1 .boy .sex.data-v-6c136122, .wrapper .student-msg .msg-detail .msg-1 .girl .sex.data-v-6c136122 {
           font-size: 24rpx;
           color: #222;
           margin-left: 24rpx;
 }
-.wrapper .student-msg .msg-detail .msg-1 .boy .select.data-v-1e96a8e8, .wrapper .student-msg .msg-detail .msg-1 .girl .select.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-1 .boy .select.data-v-6c136122, .wrapper .student-msg .msg-detail .msg-1 .girl .select.data-v-6c136122 {
           position: absolute;
           bottom: 0;
           right: 0;
           height: 36rpx;
           width: 48rpx;
 }
-.wrapper .student-msg .msg-detail .msg-1 .girl.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-1 .girl.data-v-6c136122 {
         border: none;
         margin-left: 0rpx;
         padding-left: 40rpx;
 }
-.wrapper .student-msg .msg-detail .msg-2.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-2.data-v-6c136122 {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -185,7 +186,7 @@
           -ms-flex-align: center;
               align-items: center;
 }
-.wrapper .student-msg .msg-detail .msg-2 .content.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-2 .content.data-v-6c136122 {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -197,7 +198,7 @@
         height: 100%;
         border-bottom: 1rpx solid #eee;
 }
-.wrapper .student-msg .msg-detail .msg-2 .content .right.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-2 .content .right.data-v-6c136122 {
           -webkit-box-flex: 0;
           -webkit-flex: 0 0 60;
               -ms-flex: 0 0 60;
@@ -206,7 +207,7 @@
           font-size: 28rpx;
           font-weight: 500;
 }
-.wrapper .student-msg .msg-detail .msg-2 .content .input.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-2 .content .input.data-v-6c136122 {
           margin-left: 30rpx;
           -webkit-box-flex: 1;
           -webkit-flex: 1;
@@ -215,10 +216,10 @@
           font-size: 28rpx;
           color: #666;
 }
-.wrapper .student-msg .msg-detail .msg-2 .content.data-v-1e96a8e8:nth-of-type(2) {
+.wrapper .student-msg .msg-detail .msg-2 .content.data-v-6c136122:nth-of-type(2) {
         margin-left: 48rpx;
 }
-.wrapper .student-msg .msg-detail .msg-3.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-3.data-v-6c136122 {
       height: 80rpx;
       width: 100%;
       border: 1rpx dashed #ddd;
@@ -234,25 +235,27 @@
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
-      border-radius: 16rpx;
+      -webkit-border-radius: 16rpx;
+              border-radius: 16rpx;
       margin-top: 32rpx;
 }
-.wrapper .student-msg .msg-detail .msg-3 .icon.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-3 .icon.data-v-6c136122 {
         height: 24rpx;
         width: 24rpx;
 }
-.wrapper .student-msg .msg-detail .msg-3 .text.data-v-1e96a8e8 {
+.wrapper .student-msg .msg-detail .msg-3 .text.data-v-6c136122 {
         color: #999;
         font-size: 28rpx;
         margin-left: 8rpx;
 }
-.wrapper .student-msg.data-v-1e96a8e8:nth-of-type(2) {
+.wrapper .student-msg.data-v-6c136122:nth-of-type(2) {
     margin-top: 20rpx;
 }
-.wrapper .btn.data-v-1e96a8e8 {
+.wrapper .btn.data-v-6c136122 {
     height: 94rpx;
     width: 100%;
     line-height: 94rpx;
+    background: -webkit-linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
     background: -o-linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
     background: linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
     color: #222;
@@ -260,9 +263,10 @@
     margin-top: 40rpx;
     -webkit-box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.03);
             box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.03);
-    border-radius: 16rpx;
+    -webkit-border-radius: 16rpx;
+            border-radius: 16rpx;
 }
-.wrapper ._button.data-v-1e96a8e8:after {
+.wrapper button.data-v-6c136122:after {
     border: none;
 }
 

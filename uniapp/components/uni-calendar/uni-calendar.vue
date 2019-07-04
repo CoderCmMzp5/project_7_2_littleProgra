@@ -14,7 +14,7 @@
 						<view class="uni-calendar__date-after uni-calendar__rollback" @tap="dataBefor('1', 'month')">
 							<text class="iconfont icon-jiantou "></text>
 						</view>
-						<view class="uni-calendar__backtoday" @tap="backtoday">回到今天</view>
+						<!-- <view class="uni-calendar__backtoday" @tap="backtoday">回到今天</view> -->
 					</view>
 					<view v-if="lunar" class="uni-calendar__day-detail">
 						<view>

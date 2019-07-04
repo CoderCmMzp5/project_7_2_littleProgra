@@ -7,13 +7,31 @@
 		</view>
 		
 		<view class="content">
-			<image src="../../static/images/book-img.png" mode="" class="book-img"></image>
+			<image src="../../static/images/book-img-icon4.png" mode="" class="book-img"></image>
 			<text class="text">风筝下的古树</text>
 			<image class="icon" src="../../static/images/noread.png" mode=""></image>
 		</view>
 		
 		<view class="content">
-			<image src="../../static/images/book-img.png" mode="" class="book-img"></image>
+			<image src="../../static/images/book-img-icon5.png" mode="" class="book-img"></image>
+			<text class="text">风筝下的古树</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon6.png" mode="" class="book-img"></image>
+			<text class="text">风筝下的古树</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon7.png" mode="" class="book-img"></image>
+			<text class="text">风筝下的古树</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon8.png" mode="" class="book-img"></image>
 			<text class="text">风筝下的古树</text>
 			<image class="icon" src="../../static/images/clock.png" mode=""></image>
 		</view>
@@ -26,7 +44,7 @@
 
 <style lang="scss" scoped>
 	.wrapper{
-		height: 100%;
+		min-height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		padding: 32upx;

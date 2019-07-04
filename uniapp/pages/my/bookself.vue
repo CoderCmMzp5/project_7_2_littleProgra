@@ -7,9 +7,27 @@
 		</view>
 		
 		<view class="content">
-			<image src="../../static/images/book-img.png" mode="" class="book-img"></image>
+			<image src="../../static/images/book-img-icon1.png" mode="" class="book-img"></image>
 			<text class="text">风筝下的古树</text>
 			<image class="icon" src="../../static/images/noread.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon2.png" mode="" class="book-img"></image>
+			<text class="text">风筝下的古树</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img-icon3.png" mode="" class="book-img"></image>
+			<text class="text">风筝下的古树</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
+		</view>
+		
+		<view class="content">
+			<image src="../../static/images/book-img.png" mode="" class="book-img"></image>
+			<text class="text">风筝下的古树</text>
+			<image class="icon" src="../../static/images/clock.png" mode=""></image>
 		</view>
 		
 		<view class="content">
@@ -26,7 +44,7 @@
 
 <style lang="scss" scoped>
 	.wrapper{
-		height: 100%;
+		min-height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		padding: 32upx;

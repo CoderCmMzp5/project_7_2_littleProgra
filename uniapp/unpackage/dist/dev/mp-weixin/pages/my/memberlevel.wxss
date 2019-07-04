@@ -24,7 +24,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wrapper.data-v-883a9b16 {
+.wrapper.data-v-00a557fb {
   min-height: 100%;
   width: 100%;
   background-color: #f5f5f5;
@@ -46,7 +46,7 @@
       -ms-flex-line-pack: start;
           align-content: flex-start;
 }
-.wrapper .content.data-v-883a9b16 {
+.wrapper .content.data-v-00a557fb {
     height: 428rpx;
     width: 327rpx;
     background-color: #FFFFFF;
@@ -68,17 +68,18 @@
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border-radius: 16rpx;
+    -webkit-border-radius: 16rpx;
+            border-radius: 16rpx;
     position: relative;
     padding: 0 24rpx;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-.wrapper .content .book-img.data-v-883a9b16 {
+.wrapper .content .book-img.data-v-00a557fb {
       height: 240rpx;
       width: 240rpx;
 }
-.wrapper .content .text.data-v-883a9b16 {
+.wrapper .content .text.data-v-00a557fb {
       color: #222222;
       font-size: 28rpx;
       font-family: PingFangSC-Medium;
@@ -91,13 +92,13 @@
       -o-text-overflow: ellipsis;
          text-overflow: ellipsis;
 }
-.wrapper .content .desc.data-v-883a9b16 {
+.wrapper .content .desc.data-v-00a557fb {
       font-size: 24rpx;
       color: #999;
       font-weight: 400;
       margin-top: 3rpx;
 }
-.wrapper .content .active.data-v-883a9b16 {
+.wrapper .content .active.data-v-00a557fb {
       color: #B035E4;
 }
 

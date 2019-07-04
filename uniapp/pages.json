@@ -4,11 +4,7 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "同心源",
-				"navigationBarBackgroundColor": "#F2CB2C" ,
-				"usingComponents" : {
-				   "van-button" : "/wxcomponents/vant/vant-weapp/button/index"
-				}
-
+				"navigationBarBackgroundColor": "#F2CB2C" 
 			}
 		},
 		{
