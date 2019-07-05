@@ -369,7 +369,7 @@
 		width: 450upx!important;
 		height: 450upx!important;
 		margin:0 auto;
-		margin-top: 24upx;
+		margin-top: 16upx;
 	}
 	.fullBg{
 		width:100%!important;
