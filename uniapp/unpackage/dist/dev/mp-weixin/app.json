@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/clockcard/index",
+    "pages/my/index",
+    "pages/pictureBook/index",
+    "pages/readingPromotion/index",
+    "pages/readingPromotion/promotionDetail",
+    "pages/readingPromotion/nicePromotion",
+    "pages/my/memberMessage",
+    "pages/my/memberCard",
+    "pages/my/bookself",
+    "pages/my/memberlevel",
+    "pages/my/levelDetail",
+    "pages/my/aboutMe",
+    "pages/my/register",
+    "pages/clockcard/clockDetail",
+    "pages/index/readbook",
+    "pages/index/listenbook",
+    "pages/index/answerquestion",
+    "pages/common/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#222",
+    "selectedColor": "#222",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/home.png",
+        "selectedIconPath": "/static/images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/clockcard/index",
+        "iconPath": "/static/images/sedcard.png",
+        "selectedIconPath": "/static/images/sedcard.png",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "/static/images/my.png",
+        "selectedIconPath": "/static/images/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
