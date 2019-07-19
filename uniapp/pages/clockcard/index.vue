@@ -45,7 +45,7 @@
 			this.backBottom()
 		},
 		onShow(){
-			this.$data.isShowModel= true
+			
 		},
 		methods: {
 			backBottom: function(){

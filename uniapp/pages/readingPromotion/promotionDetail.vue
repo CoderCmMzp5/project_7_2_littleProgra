@@ -8,6 +8,10 @@
 					<text class="title">闲适的时光</text>
 					<text class="author">人民出版社</text>
 				</view>
+				<view class="listen-icon">
+					<image src="../../static/images/listen_icon.png" mode=""></image>
+					<text>听书</text>
+				</view>
 			</view>
 			<view class="middle">
 				<view class="head-content">
@@ -18,7 +22,7 @@
 					<image src="../../static/images/detail-icon1.png" class="book-author-img" mode=""></image>
 					<text class="book-name">清明雨上</text>
 				</view>
-				
+
 				<view class="head-content-reason">
 					<text class="title">推荐理由</text>
 					<text class="border"></text>
@@ -37,7 +41,7 @@
 						<text class="text">1346</text>
 					</view>
 					<view class="dot-content">
-						<image src="../../static/images/share_icon.png" mode=""class="icon"></image>
+						<image src="../../static/images/share_icon.png" mode="" class="icon"></image>
 						<text class="text">分享</text>
 					</view>
 				</view>
@@ -51,60 +55,93 @@
 </template>
 
 <script>
-	
-</script>	
+
+</script>
 
 <style scoped lang="scss">
-	.wrapper{
+	.wrapper {
 		height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		padding: 32upx;
 		box-sizing: border-box;
-		.content{
+
+		.content {
 			padding: 32upx;
 			background-color: #FFFFFF;
-			border-radius:16px;
+			border-radius: 16px;
 			box-sizing: border-box;
-			.header{
+
+			.header {
 				display: flex;
-				.head-img{
+				position: relative;
+
+				.listen-icon {
+					position: absolute;
+					top: 0;
+					right: 0;
+					display: flex;
+					align-items: center;
+
+					image {
+						width: 30upx;
+						height: 26upx;
+						margin-right: 15upx;
+					}
+						
+					text {
+						font-size: 28upx;
+						font-family: PingFangSC-Regular;
+						font-weight: 400;
+						color: rgba(241, 187, 0, 1);
+					}
+				}
+
+				.head-img {
 					flex: 0 0 153upx;
 					height: 200upx;
 				}
-				.desc{
+
+				.desc {
 					display: flex;
 					flex-direction: column;
 					justify-content: space-between;
 					margin-left: 38upx;
-					.img-icon{
+
+					.img-icon {
 						height: 36upx;
 						width: 40upx;
 					}
-					.title{
+
+					.title {
 						font-size: 48upx;
 						color: #222222;
-						font-family:PingFangSC-Medium;
-						font-weight:500;
+						font-family: PingFangSC-Medium;
+						font-weight: 500;
 						margin-top: 44upx;
 					}
-					.author{
+
+					.author {
 						margin-top: 8upx;
 						font-size: 24upx;
-						font-family:PingFangSC-Regular;
-						font-weight:400;
+						font-family: PingFangSC-Regular;
+						font-weight: 400;
 					}
 				}
 			}
-			.middle{
+
+			.middle {
 				margin-top: 40upx;
 				display: flex;
 				flex-direction: column;
-				.head-content, .head-content-reason {
+
+				.head-content,
+				.head-content-reason {
 					display: flex;
 					position: relative;
 					height: 28upx;
 					width: 100%;
+
 					.title {
 						font-size: 28upx;
 						color: #222;
@@ -114,7 +151,7 @@
 						top: 0;
 						z-index: 100;
 					}
-				
+
 					.border {
 						height: 16upx;
 						width: 84upx;
@@ -125,62 +162,75 @@
 						z-index: 10;
 					}
 				}
-				.head-content-reason{
+
+				.head-content-reason {
 					margin-top: 40upx;
-					.border{
+
+					.border {
 						width: 112upx;
-						
+
 					}
 				}
-				.support-reason{
+
+				.support-reason {
 					margin-top: 22upx;
 					margin-bottom: 20upx;
 					font-size: 24upx;
-					font-family:PingFangSC-Regular;
-					font-weight:400;
-					color:rgba(34,34,34,1);
+					font-family: PingFangSC-Regular;
+					font-weight: 400;
+					color: rgba(34, 34, 34, 1);
 				}
-				.suppprt-img{
+
+				.suppprt-img {
 					display: flex;
 					justify-content: space-between;
 					align-items: center;
-					image{
+
+					image {
 						height: 202upx;
 						flex: 0 0 202upx;
 					}
 				}
-				.dot{
+
+				.dot {
 					display: flex;
 					align-items: center;
 					margin-top: 32upx;
-					.dot-content{
+
+					.dot-content {
 						display: flex;
 						align-items: center;
-						.icon{
+
+						.icon {
 							height: 36upx;
 							width: 36upx;
 							margin-right: 13upx;
 						}
-						.text{
+
+						.text {
 							color: #999;
 							font-size: 24upx;
 						}
 					}
-					.dot-content:nth-of-type(2){
+
+					.dot-content:nth-of-type(2) {
 						margin-left: 64upx;
 					}
-					
+
 				}
-				.name{
+
+				.name {
 					display: flex;
 					align-items: center;
 					margin-top: 30upx;
-					.book-author-img{
+
+					.book-author-img {
 						height: 80upx;
 						flex: 0 0 80upx;
 						border-radius: 50%;
 					}
-					.book-name{
+
+					.book-name {
 						color: #222222;
 						font-size: 28upx;
 						margin-left: 16upx;
@@ -188,17 +238,20 @@
 				}
 			}
 		}
-		.roule{
+
+		.roule {
 			margin-top: 32upx;
 			display: flex;
 			flex-direction: column;
 			padding: 0 32upx;
-			.title{
+
+			.title {
 				color: #666;
 				font-size: 24upx;
 				font-weight: 500;
 			}
-			.desc{
+
+			.desc {
 				margin-top: 16upx;
 				font-size: 24upx;
 				color: #999;

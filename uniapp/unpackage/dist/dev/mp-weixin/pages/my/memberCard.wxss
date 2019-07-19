@@ -77,8 +77,8 @@
       font-weight: 400;
 }
 .wrapper .content .level.data-v-0680a609 {
-      height: 480rpx;
-      width: 480rpx;
+      height: 240rpx;
+      width: 240rpx;
       margin-top: 68rpx;
 }
 .wrapper .share.data-v-0680a609 {

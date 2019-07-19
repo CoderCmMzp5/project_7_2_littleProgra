@@ -127,6 +127,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
+
+
+
+
+
+
+
+
 {
   components: {
     calendar: calendar },
@@ -141,8 +149,21 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       {
         date: '2019-7-3' },
       {
-        date: '2019-7-4' }] };
-
+        date: '2019-7-4' },
+      {
+        date: '2019-7-10' },
+      {
+        date: '2019-7-11' },
+      {
+        date: '2019-7-09' },
+      {
+        date: '2019-7-07' },
+      {
+        date: '2019-7-08' },
+      {
+        date: '2019-7-13' },
+      {
+        date: '2019-7-12' }] };
 
 
   },

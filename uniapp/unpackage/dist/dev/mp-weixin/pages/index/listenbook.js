@@ -151,6 +151,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var _pagePath = __webpack_require__(/*! ../../static/page-path.js */ "../../../uniapp/project_7_2_littleProgra/uniapp/static/page-path.js"); //
 //
 //
@@ -203,7 +221,25 @@ var _pagePath = __webpack_require__(/*! ../../static/page-path.js */ "../../../u
 //
 //
 //
-var _default = { data: function data() {return {};}, methods: { _goToAnswerQuestion: function _goToAnswerQuestion() {uni.navigateTo({ url: _pagePath.PAGE_ANSWER_QUESTION });} } };exports.default = _default;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = { data: function data() {return { autoplay: false, interval: 2000, duration: 500, current: 0 };}, methods: { _goToAnswerQuestion: function _goToAnswerQuestion() {uni.navigateTo({ url: _pagePath.PAGE_ANSWER_QUESTION });}, _clickright: function _clickright() {if (this.$data.current < 2) {this.$data.current = this.$data.current + 1;} else {this.$data.current = 0;}}, _clickleft: function _clickleft() {if (this.$data.current == 0) {this.$data.current = 2;} else {this.$data.current = this.$data.current - 1;}} } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 
 /***/ }),

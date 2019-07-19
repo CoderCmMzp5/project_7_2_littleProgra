@@ -250,6 +250,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+
+
+
+
+
 var _pagePath = __webpack_require__(/*! ../../static/page-path.js */ "../../../uniapp/project_7_2_littleProgra/uniapp/static/page-path.js"); //
 //
 //
@@ -311,11 +320,20 @@ var _pagePath = __webpack_require__(/*! ../../static/page-path.js */ "../../../u
 //
 //
 //
-var _default = { data: function data() {return {};}, onLoad: function onLoad() {}, methods: { /* 
-                                                                                              * 	去绘本试读页面 
-                                                                                              *  */_goToPictureBook: function _goToPictureBook() {uni.navigateTo({ url: _pagePath.PAGE_PICTURE_BOOK });}, /* 
-                                                                                                                                                                                                          * 去阅读推广页面
-                                                                                                                                                                                                          *  */_goToReadingPromotion: function _goToReadingPromotion() {uni.navigateTo({ url: _pagePath.PAGE_READING_PROMOTION });}, //去阅读页面
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = { data: function data() {return { indicatorDots: true, autoplay: true, interval: 2000, duration: 500 };}, onLoad: function onLoad() {}, methods: { /* 
+                                                                                                                                                                  * 	去绘本试读页面 
+                                                                                                                                                                  *  */_goToPictureBook: function _goToPictureBook() {uni.navigateTo({ url: _pagePath.PAGE_PICTURE_BOOK });}, /* 
+                                                                                                                                                                                                                                                                              * 去阅读推广页面
+                                                                                                                                                                                                                                                                              *  */_goToReadingPromotion: function _goToReadingPromotion() {uni.navigateTo({ url: _pagePath.PAGE_READING_PROMOTION });}, //去阅读页面
     _goToRead: function _goToRead() {uni.navigateTo({ url: _pagePath.PAGE_READ_BOOK });} } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 

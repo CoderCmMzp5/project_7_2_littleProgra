@@ -248,9 +248,9 @@ var _pagePath = __webpack_require__(/*! ../../static/page-path.js */ "../../../u
 //
 //
 // import Index from "../../wxcomponents/index.vue";
-var _default = { components: { 'Index': _index.default }, data: function data() {return { isShowModel: true };}, created: function created() {}, onLoad: function onLoad() {this.backBottom();}, onShow: function onShow() {this.$data.isShowModel = true;}, methods: { backBottom: function backBottom() {wx.pageScrollTo({ scrollTop: 300 });}, /*
-                                                                                                                                                                                                                                                                                                                                                  * 关闭弹框
-                                                                                                                                                                                                                                                                                                                                                  * */_closeModel: function _closeModel() {this.$data.isShowModel = false;}, //去打卡详情页面
+var _default = { components: { 'Index': _index.default }, data: function data() {return { isShowModel: true };}, created: function created() {}, onLoad: function onLoad() {this.backBottom();}, onShow: function onShow() {}, methods: { backBottom: function backBottom() {wx.pageScrollTo({ scrollTop: 300 });}, /*
+                                                                                                                                                                                                                                                                                                                    * 关闭弹框
+                                                                                                                                                                                                                                                                                                                    * */_closeModel: function _closeModel() {this.$data.isShowModel = false;}, //去打卡详情页面
     _goToClockDetail: function _goToClockDetail() {uni.navigateTo({
         url: _pagePath.PAGE_CLOCK_DETAIL });
 
@@ -268,6 +268,15 @@ var _default = { components: { 'Index': _index.default }, data: function data() 
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
 
 
 
@@ -390,11 +399,20 @@ var _pagePath = __webpack_require__(/*! ../../static/page-path.js */ "../../../u
 //
 //
 //
-var _default = { data: function data() {return {};}, onLoad: function onLoad() {}, methods: { /* 
-                                                                                              * 	去绘本试读页面 
-                                                                                              *  */_goToPictureBook: function _goToPictureBook() {uni.navigateTo({ url: _pagePath.PAGE_PICTURE_BOOK });}, /* 
-                                                                                                                                                                                                          * 去阅读推广页面
-                                                                                                                                                                                                          *  */_goToReadingPromotion: function _goToReadingPromotion() {uni.navigateTo({ url: _pagePath.PAGE_READING_PROMOTION });}, //去阅读页面
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = { data: function data() {return { indicatorDots: true, autoplay: true, interval: 2000, duration: 500 };}, onLoad: function onLoad() {}, methods: { /* 
+                                                                                                                                                                  * 	去绘本试读页面 
+                                                                                                                                                                  *  */_goToPictureBook: function _goToPictureBook() {uni.navigateTo({ url: _pagePath.PAGE_PICTURE_BOOK });}, /* 
+                                                                                                                                                                                                                                                                              * 去阅读推广页面
+                                                                                                                                                                                                                                                                              *  */_goToReadingPromotion: function _goToReadingPromotion() {uni.navigateTo({ url: _pagePath.PAGE_READING_PROMOTION });}, //去阅读页面
     _goToRead: function _goToRead() {uni.navigateTo({ url: _pagePath.PAGE_READ_BOOK });} } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 

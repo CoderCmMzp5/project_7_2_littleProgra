@@ -979,6 +979,7 @@ var map = {
 	"./level4.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/level4.png",
 	"./level5.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/level5.png",
 	"./listen.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/listen.png",
+	"./listen_icon.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/listen_icon.png",
 	"./logo_1.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/logo_1.png",
 	"./logo_2.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/logo_2.png",
 	"./logo_3.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/logo_3.png",
@@ -994,6 +995,8 @@ var map = {
 	"./my-icon-6.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/my-icon-6.png",
 	"./my-icon.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/my-icon.png",
 	"./my.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/my.png",
+	"./next.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/next.png",
+	"./nextyear.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/nextyear.png",
 	"./noread.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/noread.png",
 	"./player-1.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/player-1.png",
 	"./player.png": "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/player.png",
@@ -1602,6 +1605,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAwCAMAAAC7
 
 /***/ }),
 
+/***/ "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/listen_icon.png":
+/*!*********************************************************************************************************!*\
+  !*** C:/Users/YwmThinkpad/Desktop/uniapp/project_7_2_littleProgra/uniapp/static/images/listen_icon.png ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAeCAYAAAAy2w7YAAACg0lEQVRIia2WO2iUQRDHf7kYkCBKRAQVK7EQLcUHiNpoIwhpfKH4KAQVGy1MI5w2QsBGbYJoKpsUWiTIfTvfGWKUSEghGLWwUBEUH5fb+S5n1CSuRfYud5fL4X13A/9md5nfzs7u7EAVc9DikiSaImgpdz7IMivcsMIHNcyq4Jqk0XnIY5ZHIS+b6LxUeTtMBwAackcFFwmzVrivhuM54VAsBZxVw4yHfLWGrXPR9NEaCdZP3KqWs3osMlzyvqb1CduLE3nD2kKYWcPBhkEhd72/F2UTP9OsK4CikO5GQdZwRQWnht+5gC1VQSrMRCE3J4QDNmBfHKlwTKWYo48/hE3VQM2XQTXFynKQ4ZkKk82Gfe6nvQyUFfa6PlpzAavzKdY0okg4UxNULcFjPbRFISet8EhDxiPhlQ15qIYTbpAlVW9fms66QJkUm1V4W+No3uQKCY8L0iE2qpApXn9hxArdkdCtwmjJs/hu02yIDzI895ckHxk6F7yZgMORMKWCs4ahWKAJYVdJJKer5QFAQy4UjzGYLzn/DcoarqvgNOSLS5JYDDTWQ5sKWR/51bpBauhVwVkhXAxSsnbER95TP0h44MdfZ0J2LgbJBuxW4Z2PqLcRkFNh6v0gSyshTlihwp+SytIwyLkB/0uWWCZgfUVdiwEyXKsXZIWuukEuSSIS7vmdzrox2itBUT+rIuGvX3O7tOOp68G6JAkb0DVpOFoJKTo0nMoaLjtX3lbVXevi2gKQHaCjMJALOdIskAac935nXB+tc4OGcV8cP1nhXOxWy0uFiyp886CnRbo17FdhusZXEEu+4O4oCzVn2KPCcCT8agbAGtKaYlvN8220sa/m8x/hhMrtiPsCPQAAAABJRU5ErkJggg=="
+
+/***/ }),
+
 /***/ "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/logo_1.png":
 /*!****************************************************************************************************!*\
   !*** C:/Users/YwmThinkpad/Desktop/uniapp/project_7_2_littleProgra/uniapp/static/images/logo_1.png ***!
@@ -1764,6 +1778,28 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAACgCAMAAADw
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAhFBMVEUAAADm5ubHx8fLy8vExMTBwcHCwsLKysrKysrMzMzKysrAwMDIyMjCwsLCwsLCwsLKysrKysrDw8PGxsbDw8PAwMDDw8PExMS/v7/MzMzMzMzHx8fCwsLCwsLDw8PDw8PMzMzKysrMzMzLy8vGxsa/v7++vr7Ly8vDw8PGxsbBwcHIyMjx4tPgAAAAJnRSTlMABBSP+tBvTTIZ8e3PsqpLRD4o3Hn58u7i3c2mflk5DM+ypqZvbX4fA7AAAAGESURBVEjH3VLbloIwDKTlDqICAooIXsEu//9/m+Cu2wqNPOyTc44PmcwkGanxqYjNY9AFRzOeJ1+X3S/K9Xs5MzsZJnunP3UqTm8cj/ln12e+e37soO9Hyc77qbwdlmSOEvX8WXJ0lNT/iRM9ifCQiIkEfd9fFOZCp1iAwVUYF5iF3hBA21cYH5hAb+gBTGEYUv+4YSGEeMkADJHBhPZeYfbAmMR3EADlOyARG/RNqfSlU+oixFqg4/mWUizxLZEpMMfwWvF+TECCRUJFxGhDs7HuMtKGnn8tZLWAX3ElViT2fQJ2otOv8kFgRU7NGeO1Ez3Oy1fT+sPQLir+R/GqGEYcJudbX4AlV1m+RNaa2JHk2NiMGxsclI9yMBvo6dUHdNjshXVwszRf2YE9R+WaEO83NMAcYTNaEHKdgYejFZigMrSoMIVMJG3bZlxv4BkIEvkiqCODQAQCR04F9Y0y3ECwlCNAXVOGGgRyiLCdgVAyZHMMmWTYzjFs5Ze6naFfGZ+Cb6s7T3zr0i8GAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/next.png":
+/*!**************************************************************************************************!*\
+  !*** C:/Users/YwmThinkpad/Desktop/uniapp/project_7_2_littleProgra/uniapp/static/images/next.png ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAuCAYAAADHqlL4AAABn0lEQVRIia2WIUsEQRiGz2LwRItJ1C6Y7GoUtAoGk6BJhAtiMBgNBsF/IIhgMh2I+BtELyzc8b3vt2dZLoh4RYsyFg+Ow9uZb24Gtj7M87Avu5XK3xGRZRGpkdwtimKmMuoBcE7S9T1dEVmPBpLcGQD2ng+SC7HQuyFQp6oPsdD6MChJB2DfDFXVgzIoya45Q5Zl4ySfPGB7hna7vUjyM3kGAIfJMzjnxkg+JM/QbDZnVfUteQYR2fJlADBvBgO4Sp5BRKZI5mVgVd0zg1ut1oqqfifPkOf5WfIMIWuLyhCwtui3wbc2e4aQtUVlCFhbXIaAtcV9KXxri8oA4Mhz2wsrcInkVwlQiqKYCAY658ZJvpQAf1R11XRLVR384RhseWkC5nm+RvKnTLvRaFSDgSSnSb6m1r5Oqg1g2/P62LRFZI7kezJt59yYqj4m1SZZKwMCgEk7YDVmbd9q7Nq+1Zi1A1Zj0w5YTZR26WrM2iQ3PKuJ2vZtUu0/6H0y7T7oSTLt3smybFJVn/+BnkYBe6fT6VQBHAOok7whuTkK7xfrbLEnUq97xAAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ "../../../uniapp/project_7_2_littleProgra/uniapp/static/images/nextyear.png":
+/*!******************************************************************************************************!*\
+  !*** C:/Users/YwmThinkpad/Desktop/uniapp/project_7_2_littleProgra/uniapp/static/images/nextyear.png ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAYCAYAAAAs7gcTAAAA+0lEQVQ4jZWUMW7CQBBFR1R0iEDJHdJxBIoUFEhwkVzAR+AEQSCBlDuQyo3X80eyFAwFhQtAQEFPBSlwJDPeReuV3L15s+P5NtGLw8xdAFtmPorIyAkCaADYAbgDuDPz6RU8+QfzZ+Nq/6HAW5IkvRIYhmETwKEIi8jYahWRmbL+ZllWt7XvK+PVGPNeAo0xLQBHZf10Tb9Q1mUQBLUSGMfxQBkvURR1bMY2gLOCh67pvxU4tYK5uRLcBnDyukalAQsd5qrgx/rqiIjSNH3zXgpRhXUXCp6CxMwra5CIHhEVkb1XRHO7X/gLBV+qYO2EATSY2e+Dze1Pv4I/PQ+jWP4BVKEAAAAASUVORK5CYII="
 
 /***/ }),
 
@@ -2548,7 +2584,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -8724,7 +8760,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8745,14 +8781,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -8821,7 +8857,7 @@ var patch = function(oldVnode, vnode) {
         });
         var diffData = diff(data, mpData);
         if (Object.keys(diffData).length) {
-            if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
                 console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
                     ']差量更新',
                     JSON.stringify(diffData));

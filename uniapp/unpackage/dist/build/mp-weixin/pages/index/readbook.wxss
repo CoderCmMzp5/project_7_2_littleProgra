@@ -24,17 +24,17 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.wrapper.data-v-bac0c2c4 {
+.wrapper.data-v-7f75972c {
   min-height: 100%;
   width: 100%;
   background-color: #f5f5f5;
   position: relative;
 }
-.wrapper .img-icon.data-v-bac0c2c4 {
+.wrapper .img-icon.data-v-7f75972c {
     height: 1304rpx;
     width: 100%;
 }
-.wrapper .desc.data-v-bac0c2c4 {
+.wrapper .desc.data-v-7f75972c {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -49,7 +49,7 @@
             align-items: center;
     padding: 32rpx;
 }
-.wrapper .desc .common.data-v-bac0c2c4 {
+.wrapper .desc .common.data-v-7f75972c {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -59,24 +59,24 @@
           -ms-flex-align: center;
               align-items: center;
 }
-.wrapper .desc .common image.data-v-bac0c2c4 {
+.wrapper .desc .common image.data-v-7f75972c {
         height: 36rpx;
         width: 36rpx;
 }
-.wrapper .desc .common .text.data-v-bac0c2c4 {
+.wrapper .desc .common .text.data-v-7f75972c {
         color: #222;
         font-size: 24rpx;
         font-family: PingFangSC-Regular;
         font-weight: 400;
 }
-.wrapper .desc .common:nth-of-type(1) image.data-v-bac0c2c4 {
+.wrapper .desc .common:nth-of-type(1) image.data-v-7f75972c {
       -webkit-transform: rotate(-180deg);
           -ms-transform: rotate(-180deg);
               transform: rotate(-180deg);
 }
-.wrapper .listen.data-v-bac0c2c4 {
+.wrapper .listen.data-v-7f75972c {
     height: 98rpx;
-    width: 98rpx;
+    width: 185rpx;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -93,11 +93,18 @@
     background-color: #fff;
     right: 32rpx;
     bottom: 140rpx;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
+    -webkit-border-radius: 49rpx;
+            border-radius: 49rpx;
 }
-.wrapper .listen image.data-v-bac0c2c4 {
+.wrapper .listen image.data-v-7f75972c {
       width: 41rpx;
       height: 48rpx;
+}
+.wrapper .listen .text.data-v-7f75972c {
+      font-size: 28rpx;
+      font-family: PingFangSC-Medium;
+      font-weight: 500;
+      color: #f1bb00;
+      margin-left: 16rpx;
 }
 

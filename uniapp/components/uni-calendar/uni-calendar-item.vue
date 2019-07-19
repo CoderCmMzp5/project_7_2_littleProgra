@@ -181,4 +181,24 @@
 			}
 		}
 	}
+	.uni-calender__body-date-week:nth-of-type(2){
+		.uni-calender__data-circle {
+			position: absolute;
+			// bottom: 10rpx;
+			top: 20upx;
+			right: 10upx;
+			// margin: auto;
+			width: 10rpx;
+			height: 10rpx;
+			border-radius: 50%;
+			background: #ff5a5f;
+			z-index: 10;
+			
+			bottom: 0;
+			background-color: #f5f5f5;
+			height: 80upx;
+			width: 80upx;
+			color: red;
+		}
+	}
 </style>

@@ -31,6 +31,7 @@
   padding: 32rpx 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding-bottom: 200rpx;
 }
 .wrapper .content.data-v-05cbc646 {
     height: 721rpx;
@@ -109,7 +110,8 @@
                 justify-content: space-between;
         margin-top: 68rpx;
 }
-.wrapper .content .content-detail .progress .name.data-v-05cbc646, .wrapper .content .content-detail .progress .desc.data-v-05cbc646 {
+.wrapper .content .content-detail .progress .name.data-v-05cbc646,
+        .wrapper .content .content-detail .progress .desc.data-v-05cbc646 {
           -webkit-box-flex: 0;
           -webkit-flex: 0 0 68rpx;
               -ms-flex: 0 0 68rpx;
@@ -194,5 +196,24 @@
       font-size: 26rpx;
       color: #222;
       margin-top: 32rpx;
+}
+.wrapper .checkgift.data-v-05cbc646 {
+    height: 94rpx;
+    width: 686rpx;
+    line-height: 94rpx;
+    background: -webkit-linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
+    background: -o-linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
+    background: linear-gradient(225deg, #f7ea7a 0%, #f1bb00 100%);
+    -webkit-box-shadow: 0rpx 10rpx 30rpx 0rpx rgba(247, 231, 115, 0.5);
+            box-shadow: 0rpx 10rpx 30rpx 0rpx rgba(247, 231, 115, 0.5);
+    -webkit-border-radius: 16rpx;
+            border-radius: 16rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: #222222;
+}
+.wrapper button.data-v-05cbc646::after {
+    border: none;
 }
 

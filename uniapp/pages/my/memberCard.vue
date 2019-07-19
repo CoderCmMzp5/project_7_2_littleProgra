@@ -4,7 +4,7 @@
 			<image class="img-icon" src="../../static/images/author-icon.png" mode=""></image>
 			<text class="name">萧梵俊</text>
 			<text class="desc">于2019-08-27获得书虫称号</text>
-			<image class="level" src="../../static/images/level1.png" mode=""></image>
+			<image class="level" src="https://r.ffimg.cn/hlswx/2019-07-16/5d2dd656e09b8559567195.png" mode=""></image>
 		</view>
 		<view class="share">
 			<view class="common">
@@ -77,8 +77,8 @@
 				font-weight: 400;
 			}
 			.level{
-				height: 480upx;
-				width: 480upx;
+				height: 240upx;
+				width: 240upx;
 				margin-top: 68upx;
 			}
 		}

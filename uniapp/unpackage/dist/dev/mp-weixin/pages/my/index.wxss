@@ -51,7 +51,7 @@
   width: 450rpx !important;
   height: 450rpx !important;
   margin: 0 auto;
-  margin-top: 24rpx;
+  margin-top: 16rpx;
 }
 .fullBg.data-v-fc132b3a {
   width: 100% !important;

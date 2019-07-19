@@ -1,7 +1,25 @@
 <template>
 	<view class="wrapper">
 		<view class="content">
-			<image class="book-img" src="../../static/images/book-iocn1.png" mode=""></image>
+			<!-- <image class="book-img" src="../../static/images/book-iocn1.png" mode=""></image> -->
+			<swiper class="book-img" :current="current"  :autoplay="autoplay" :interval="interval"
+			 :duration="duration">
+				<swiper-item>
+					<image class="book-img" src="../../static/images/book-iocn1.png" mode=""></image>
+				</swiper-item>
+				<swiper-item>
+					<image class="book-img" src="../../static/images/book-iocn1.png" mode=""></image>
+				</swiper-item>
+				<swiper-item>
+					<image class="book-img" src="../../static/images/book-iocn1.png" mode=""></image>
+				</swiper-item>
+			</swiper>
+			<view class="clickright" @click="_clickright">
+				<image src="../../static/images/next.png" mode=""></image>
+			</view>
+			<view class="clickleft" @click="_clickleft">
+				<image src="../../static/images/next.png" mode=""></image>
+			</view>
 			<text class="name">闲适的时光</text>
 			<text class="author">人民出版社</text>
 			<view class="player">
@@ -17,7 +35,7 @@
 				</view>
 			</view>
 		</view>
-		
+
 		<view class="question">
 			<view class="title">
 				<image src="../../static/images/question-icon.png" mode=""></image>
@@ -51,32 +69,52 @@
 </template>
 
 <script>
-	import { PAGE_ANSWER_QUESTION } from '../../static/page-path.js'
-	export default{
-		data(){
-			return{
-				
+	import {
+		PAGE_ANSWER_QUESTION
+	} from '../../static/page-path.js'
+	export default {
+		data() {
+			return {
+				autoplay: false,
+				interval: 2000,
+				duration: 500,
+				current:0
 			}
 		},
-		methods:{
-			_goToAnswerQuestion(){
+		methods: {
+			_goToAnswerQuestion() {
 				uni.navigateTo({
-					url:PAGE_ANSWER_QUESTION
+					url: PAGE_ANSWER_QUESTION
 				})
+			},
+			_clickright() {
+				if (this.$data.current < 2) {
+					this.$data.current = this.$data.current + 1;
+				} else {
+					this.$data.current = 0;
+				}
+
+			},
+
+			_clickleft() {
+				if (this.$data.current == 0) {
+					this.$data.current = 2;
+				} else {
+					this.$data.current = this.$data.current - 1;
+				}
 			}
 		}
 	}
-	
 </script>
 
 <style lang="scss" scoped>
-	.wrapper{
+	.wrapper {
 		min-height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		padding: 32upx;
 		box-sizing: border-box;
-		.content{
+		.content {
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -86,145 +124,192 @@
 			box-sizing: border-box;
 			background-color: #fff;
 			border-radius: 16upx;
-			.book-img{
+			.clickright, .clickleft{
+				position: absolute;
+				width: 42upx;
+				height: 92upx;
+				top: 257upx;
+				right: 64upx;
+				z-index: 1000;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				image{
+					width: 21upx;
+					height: 46upx;
+				}
+			}
+			.clickleft{
+				left: 64upx;
+				image{
+					transform: rotate(-180deg)
+				}
+			}
+			.book-img {
 				height: 416upx;
 				width: 320upx;
 			}
-			.name{
+			.name {
 				margin-top: 32upx;
 				color: #222;
 				font-size: 48upx;
 				font-weight: 500;
-				font-family:PingFangSC-Medium;
+				font-family: PingFangSC-Medium;
 			}
-			.author{
+
+			.author {
 				margin-top: 8upx;
 				font-size: 24upx;
 				color: #666;
-				font-family:PingFangSC-Regular;
+				font-family: PingFangSC-Regular;
 			}
-			.player{
+			.player {
 				width: 100%;
 				margin-top: 32upx;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
 				box-sizing: border-box;
-				padding:  0 123upx;
-				.player-img{
+				padding: 0 123upx;
+
+				.player-img {
 					height: 48upx;
 					width: 48upx;
 				}
-				.player-img:nth-of-type(1){
+
+				.player-img:nth-of-type(1) {
 					transform: rotate(-180deg)
 				}
-				.player-img:nth-of-type(2){
+
+				.player-img:nth-of-type(2) {
 					height: 88upx;
 					width: 88upx;
 				}
 			}
-			.progress{
+
+			.progress {
 				width: 100%;
 				margin-top: 42upx;
-				.time{
+
+				.time {
 					display: flex;
 					justify-content: space-between;
 					align-items: center;
 					margin-top: 16upx;
-					.start, .end{
+
+					.start,
+					.end {
 						color: #222;
 						font-size: 24upx;
-						font-family:PingFangSC-Regular;
+						font-family: PingFangSC-Regular;
 					}
-					.end{
+
+					.end {
 						color: #999;
 					}
 				}
 			}
-			
+
 		}
-		.question{
+
+		.question {
 			margin-top: 32upx;
 			border-radius: 16upx;
 			background-color: #fff;
 			padding: 32upx;
 			padding-bottom: 64upx;
 			box-sizing: border-box;
-			.title{
+
+			.title {
 				display: flex;
 				align-items: flex-end;
-				image{
+
+				image {
 					height: 45upx;
 					width: 45upx;
 					margin-right: 16upx;
 				}
-				.current{
+
+				.current {
 					position: relative;
 					top: 10upx;
 				}
-				.current, .total{
+
+				.current,
+				.total {
 					color: #999;
 					font-size: 56upx;
-					font-family:PingFangSC-Medium;
+					font-family: PingFangSC-Medium;
 				}
-				.total{
+
+				.total {
 					font-size: 24upx;
 				}
 			}
-			.desc{
+
+			.desc {
 				color: #222;
 				font-size: 40upx;
 				font-family: PingFangSC-Medium;
 				font-weight: 500;
 				margin-top: 16upx;
 			}
-			.select{
+
+			.select {
 				display: flex;
 				flex-direction: column;
 				margin-top: 9upx;
-				.select-item{
+
+				.select-item {
 					display: flex;
 					align-items: center;
 					justify-content: space-between;
 					height: 104upx;
-					.text{
+
+					.text {
 						font-size: 28upx;
 						color: #222;
 						font-weight: 500;
-						font-family:PingFangSC-Medium;
+						font-family: PingFangSC-Medium;
 					}
-					.radius{
+
+					.radius {
 						height: 36upx;
 						width: 36upx;
 						border-radius: 50%;
 						border: 1upx solid #ccc;
 					}
-					.error{
+
+					.error {
 						color: #F5222D;
 					}
-					.right{
+
+					.right {
 						color: #F2CB2C;
 					}
-					.img-icon{
+
+					.img-icon {
 						height: 36upx;
 						width: 36upx;
 					}
 				}
 			}
-			.btn{
+
+			.btn {
 				margin-top: 32upx;
 				height: 94upx;
 				width: 100%;
 				line-height: 94upx;
 				border-radius: 16upx;
-				background:linear-gradient(225deg,rgba(247,234,122,1) 0%,rgba(241,187,0,1) 100%);
-				box-shadow:0px 10px 30px 0px rgba(247,231,115,0.5);
+				background: linear-gradient(225deg, rgba(247, 234, 122, 1) 0%, rgba(241, 187, 0, 1) 100%);
+				box-shadow: 0px 10px 30px 0px rgba(247, 231, 115, 0.5);
 				font-size: 28upx;
 				color: #222;
 				font-family: PingFangSC-Medium;
 				font-weight: 500;
 			}
-			button::after{
+
+			button::after {
 				border: none
 			}
 		}

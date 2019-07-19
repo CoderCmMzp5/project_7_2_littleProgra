@@ -54,7 +54,7 @@
 						<view class="uni-calendar__week">六</view>
 					</view>
 					<uni-calendar-item v-if="slide === 'none'" :canlender="canlender" :lunar="lunar" @selectDays="selectDays"></uni-calendar-item>
-					<swiper v-else class="uni-calendar__body" :style="{ height: domHeihgt + 'px' }" :current="currentIndex" circular
+					<swiper v-else class="uni-calendar__body" :style="{ height: domHeihgt + 'rpx' }" :current="currentIndex" circular
 					 :vertical="slide === 'vertical' ? true : false" skip-hidden-item-layout :duration="duration" @animationfinish="animationfinish"
 					 @change="change">
 						<swiper-item v-for="(item, itemindx) in swiperData" :key="itemindx">
@@ -144,7 +144,7 @@
 				canlender: {
 					weeks: []
 				},
-				domHeihgt: 254,
+				domHeihgt: 470,
 				swiperData: [],
 				currentIndex: 0,
 				currentSelDate: '',

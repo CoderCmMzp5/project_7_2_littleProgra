@@ -11,7 +11,16 @@
 					<text class="title">闲适的时光</text>
 					<text class="author">人民出版社</text>
 				</view>
+				<view class="listen-icon">
+					<image src="../../static/images/listen_icon.png" mode=""></image>
+					<text>听书</text>
+				</view>
 			</view>
+		</view>
+		<view class="block"></view>
+		<view class="reson-content">
+			<text class="title">推荐作者</text>
+			<input type="text" placeholder="在此输入您的推荐作者" style="margin-top: 32upx;" placeholder-style='color: #bbb; font-size: 14px;'>
 		</view>
 		<view class="block"></view>
 		<view class="reson-content">
@@ -62,6 +71,27 @@
 			.support-content{
 				display: flex;
 				margin-top: 32upx;
+				position: relative;
+				.listen-icon {
+					position: absolute;
+					top: 0;
+					right: 0;
+					display: flex;
+					align-items: center;
+				
+					image {
+						width: 30upx;
+						height: 26upx;
+						margin-right: 15upx;
+					}
+						
+					text {
+						font-size: 28upx;
+						font-family: PingFangSC-Regular;
+						font-weight: 400;
+						color: rgba(241, 187, 0, 1);
+					}
+				}
 				.head-img{
 					flex: 0 0 153upx;
 					height: 200upx;

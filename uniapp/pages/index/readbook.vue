@@ -14,70 +14,80 @@
 				<image src="../../static/images/left.png" mode=""></image>
 			</view>
 		</view>
-		
+
 		<view class="listen" @click="goToListenBook">
 			<image src="../../static/images/listen.png" mode=""></image>
+			<text class="text">听书</text>
 		</view>
-		
+
 	</view>
 </template>
 
 <script>
-	import { PAGE_LISTEN_BOOK } from '../../static/page-path.js'
-	export default{
-		data(){
-			return{
-				
+	import {
+		PAGE_LISTEN_BOOK
+	} from '../../static/page-path.js'
+	export default {
+		data() {
+			return {
+
 			}
 		},
-		methods:{
-			goToListenBook(){
+		methods: {
+			goToListenBook() {
 				uni.navigateTo({
-					url:PAGE_LISTEN_BOOK
+					url: PAGE_LISTEN_BOOK
 				})
 			}
 		}
 	}
 </script>
-	
+
 <style lang="scss" scoped>
-	.wrapper{
+	.wrapper {
 		min-height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		position: relative;
-		.img-icon{
+
+		.img-icon {
 			height: 1304upx;
 			width: 100%;
 		}
-		.desc{
+
+		.desc {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			padding: 32upx;
-			.common{
+
+			.common {
 				display: flex;
 				align-items: center;
-				image{
+
+				image {
 					height: 36upx;
 					width: 36upx;
 				}
-				.text{
+
+				.text {
 					color: #222;
 					font-size: 24upx;
-					font-family:PingFangSC-Regular;
-					font-weight:400;
+					font-family: PingFangSC-Regular;
+					font-weight: 400;
 				}
 			}
-			.common:nth-of-type(1){
-				image{
+
+			.common:nth-of-type(1) {
+				image {
 					transform: rotate(-180deg)
 				}
 			}
 		}
-		.listen{
+
+		.listen {
 			height: 98upx;
-			width: 98upx;
+			width: 185upx;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -85,10 +95,19 @@
 			background-color: #fff;
 			right: 32upx;
 			bottom: 140upx;
-			border-radius: 50%;
-			image{
+			border-radius: 49upx;
+
+			image {
 				width: 41upx;
 				height: 48upx;
+			}
+
+			.text {
+				font-size: 28upx;
+				font-family: PingFangSC-Medium;
+				font-weight: 500;
+				color: rgba(241, 187, 0, 1);
+				margin-left: 16upx;
 			}
 		}
 	}

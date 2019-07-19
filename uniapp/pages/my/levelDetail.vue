@@ -28,6 +28,7 @@
 			<text class="common">免费阅读绘本：10本</text>
 			<text class="common">免费听书：5本</text>
 		</view>
+		<button type="primary" class="checkgift">查看奖励</button>
 	</div>
 </template>
 
@@ -35,68 +36,81 @@
 </script>
 
 <style lang="scss" scoped>
-	.wrapper{
+	.wrapper {
 		min-height: 100%;
 		width: 100%;
 		background-color: #f5f5f5;
 		padding: 32upx 0;
 		box-sizing: border-box;
-		.content{
+		padding-bottom: 200upx;
+		.content {
 			height: 721upx;
 			width: 100%;
 			position: relative;
-			.bg{
+
+			.bg {
 				height: 100%;
 				width: 100%;
 				position: absolute;
 				z-index: 10;
 			}
-			.content-detail{
+
+			.content-detail {
 				height: 100%;
 				width: 100%;
 				padding: 32upx 64upx;
 				box-sizing: border-box;
 				position: absolute;
 				z-index: 100;
-				.my-level{
+
+				.my-level {
 					display: flex;
 					justify-content: space-between;
 					padding-top: 15upx;
-					.text{
+
+					.text {
 						color: #222;
 						font-size: 30upx;
 					}
-					.share{
+
+					.share {
 						display: flex;
 						align-items: center;
-						.share-icon{
+
+						.share-icon {
 							height: 36upx;
 							width: 36upx;
 						}
-						.text{
+
+						.text {
 							color: #999;
 							font-size: 26upx;
 							margin-left: 13upx;
 						}
 					}
 				}
-				.img-icon{
+
+				.img-icon {
 					height: 200upx;
 					width: 200upx;
 					margin-left: 200upx;
 					margin-top: 92upx;
 				}
-				.title{
+
+				.title {
 					text-align: center;
 					margin-top: 60upx;
 					font-size: 30upx;
 					color: #222;
 				}
-				.progress{
+
+				.progress {
 					display: flex;
 					justify-content: space-between;
 					margin-top: 68upx;
-					.name, .desc{
+
+					.name,
+					.desc {
 						flex: 0 0 68upx;
 						font-size: 18upx;
 						display: flex;
@@ -104,20 +118,25 @@
 						align-items: center;
 						border-radius: 16upx;
 					}
-					.name{
-						background: linear-gradient(270deg,rgba(250,231,87,1) 0%,rgba(242,203,44,1) 100%);
+
+					.name {
+						background: linear-gradient(270deg, rgba(250, 231, 87, 1) 0%, rgba(242, 203, 44, 1) 100%);
 						color: #FF4B00;
 					}
-					.desc{
-						background: linear-gradient(90deg,rgba(198,198,198,1) 0%,rgba(221,221,221,1) 100%);;
+
+					.desc {
+						background: linear-gradient(90deg, rgba(198, 198, 198, 1) 0%, rgba(221, 221, 221, 1) 100%);
+						;
 						color: #fff;
 					}
-					.progress-width{
+
+					.progress-width {
 						flex: 1;
 						margin: 0 11upx;
 					}
 				}
-				.distance{
+
+				.distance {
 					width: 100%;
 					text-align: center;
 					margin-top: 30upx;
@@ -125,29 +144,49 @@
 					color: #999;
 				}
 			}
-			
-		} 
-		.book-interest{
+
+		}
+
+		.book-interest {
 			display: flex;
 			flex-direction: column;
 			margin: 32upx;
-			padding:0 32upx 32upx 32upx;;
+			padding: 0 32upx 32upx 32upx;
+			;
 			box-sizing: border-box;
 			background-color: #fff;
 			justify-content: space-between;
 			align-items: flex-start;
 			border-radius: 16upx;
-			.title{
+
+			.title {
 				font-size: 30upx;
 				color: #222;
 				font-weight: 500;
 				margin-top: 32upx;
 			}
-			.common{
+
+			.common {
 				font-size: 26upx;
 				color: #222;
 				margin-top: 32upx;
 			}
+		}
+
+		.checkgift {
+			height: 94upx;
+			width: 686upx;
+			line-height: 94upx;
+			background: linear-gradient(225deg, rgba(247, 234, 122, 1) 0%, rgba(241, 187, 0, 1) 100%);
+			box-shadow: 0upx 10upx 30upx 0upx rgba(247, 231, 115, 0.5);
+			border-radius: 16upx;
+			font-size:28upx;
+font-family:PingFangSC-Medium;
+font-weight:500;
+color:rgba(34,34,34,1);
+		}
+		button::after{
+			border: none
 		}
 	}
 </style>

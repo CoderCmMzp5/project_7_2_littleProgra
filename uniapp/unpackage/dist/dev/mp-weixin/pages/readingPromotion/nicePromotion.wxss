@@ -49,6 +49,31 @@
       display: -ms-flexbox;
       display: flex;
       margin-top: 32rpx;
+      position: relative;
+}
+.wrapper .header .support-content .listen-icon.data-v-b8cc073c {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.wrapper .header .support-content .listen-icon image.data-v-b8cc073c {
+          width: 30rpx;
+          height: 26rpx;
+          margin-right: 15rpx;
+}
+.wrapper .header .support-content .listen-icon text.data-v-b8cc073c {
+          font-size: 28rpx;
+          font-family: PingFangSC-Regular;
+          font-weight: 400;
+          color: #f1bb00;
 }
 .wrapper .header .support-content .head-img.data-v-b8cc073c {
         -webkit-box-flex: 0;

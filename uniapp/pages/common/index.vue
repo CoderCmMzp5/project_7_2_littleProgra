@@ -1,10 +1,19 @@
 <template>
 	<div class='content'>
 		<image class="bg" src="../../static/images/home_bg.png" mode="widthFix"></image>
-		<view class="icon-1">
-			<image class="icon-img" src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfc033eac8824854881.png" mode="widthFix"></image>
+		<view class="icon-1">			
+			 <swiper class="swiper" style="height: 360px;" :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
+                        <swiper-item>
+                            <image class="icon-img" src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfc033eac8824854881.png" mode="widthFix"></image>
+                        </swiper-item>
+                        <swiper-item>
+                            <image class="icon-img" src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfc033eac8824854881.png" mode="widthFix"></image>
+                        </swiper-item>
+                        <swiper-item>
+                           <image class="icon-img" src="https://r.ffimg.cn/hlswx/2019-07-04/5d1dfc033eac8824854881.png" mode="widthFix"></image>
+                        </swiper-item>
+                    </swiper>
 			<text class="count">2/5</text>
-			
 		</view>
 		<view class="same-icon">
 			<image class="img-icon" src="../../static/images/home_icon2.png" mode=""></image>
@@ -30,7 +39,7 @@
 				<image class="book-img" src="../../static/images/book-iocn1.png" mode=""></image>
 				<view class="book-content">
 					<text class="title">笠翁对韵</text>
-					<text class="desc">作家榜经典：笠翁对韵+识字神器套装 &#913-6岁]</text>
+					<text class="desc">作家榜经典：笠翁对韵+笠翁对韵+识字神器套装 &#913-6岁]</text>
 					<view class="author">
 						<view class="book-desc">
 							<image class="img-icon" src="../../static/images/author-icon.png" mode=""></image>
@@ -45,7 +54,7 @@
 				<image class="book-img" src="../../static/images/book-iocn2.png" mode=""></image>
 				<view class="book-content">
 					<text class="title">笠翁对韵</text>
-					<text class="desc">作家榜经典：笠翁对韵+识字神器套装 &#913-6岁]</text>
+					<text class="desc">作家榜经典：笠翁对韵+笠翁对韵+识字神器套装 &#913-6岁]</text>
 					<view class="author">
 						<view class="book-desc">
 							<image class="img-icon" src="../../static/images/author-icon.png" mode=""></image>
@@ -64,7 +73,10 @@
 	 export default {
         data(){
             return {
- 
+				 indicatorDots: true,
+				autoplay: true,
+				interval: 2000,
+				duration: 500
             }
         },
         onLoad(){

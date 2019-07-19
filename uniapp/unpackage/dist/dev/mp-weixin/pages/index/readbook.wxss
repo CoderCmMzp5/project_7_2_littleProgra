@@ -76,7 +76,7 @@
 }
 .wrapper .listen.data-v-624cda50 {
     height: 98rpx;
-    width: 98rpx;
+    width: 185rpx;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -93,11 +93,18 @@
     background-color: #fff;
     right: 32rpx;
     bottom: 140rpx;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
+    -webkit-border-radius: 49rpx;
+            border-radius: 49rpx;
 }
 .wrapper .listen image.data-v-624cda50 {
       width: 41rpx;
       height: 48rpx;
+}
+.wrapper .listen .text.data-v-624cda50 {
+      font-size: 28rpx;
+      font-family: PingFangSC-Medium;
+      font-weight: 500;
+      color: #f1bb00;
+      margin-left: 16rpx;
 }
 
